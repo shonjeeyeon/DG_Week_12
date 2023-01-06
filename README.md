@@ -7,3 +7,7 @@ Medication persistence refers to a patient’s continued action of taking medica
 **Project Description**
 
 A model will be established and deployed to automate identifying persistency of a certain pharmaceutical product. Records of 3,424 patients who take the medication will be used for analysis, and correlation between medication persistency and other factors such as patient demographics, provider attributes, clinical factors, and disease factors will be investigated. Finally, an optimal model to predict persistency based on above features will be selected and developed.
+
+**Development of a Model**
+
+Logistic Regression (LR), Random Forest (RF), Extreme Gradient Boost (XGBoost), and MultiLayer Perceptrons (MLP) were compared using seven independent variables selected via recursive factor elimination (RFE). LR achieved AUC of 80.5% and accuracy of 81.9%. The model was saved as a .pkl file for Paas deployment.
